@@ -66,11 +66,6 @@ function printQuote () {
 
 }
 
-/*
-var changeQuoteTimeout =
-function changeQuoteTimeout () {
-
-}*/
-
-
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+// change the quote after 20 seconds without clicking the button
+setInterval(printQuote, 20000);
