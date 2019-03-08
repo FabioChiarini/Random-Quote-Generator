@@ -65,7 +65,6 @@ function printQuote () {
   var outputString = document.getElementById('quote-box');
   outputString.innerHTML = stringQuote;
 
-  console.log(getRandomColor());
   // change the background color
   document.body.style.backgroundColor = getRandomColor();
 
